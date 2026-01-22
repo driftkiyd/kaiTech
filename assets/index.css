@@ -240,6 +240,23 @@ button:hover {
   background: var(--site-color-01-hover);
 }
 
+@media (max-width: 760px) {
+  form {
+    width: 90%;
+    margin: 20px auto;
+    padding: 8px;
+  }
+
+  input, select, textarea, button {
+    font-size: 16px;
+    padding: 1px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}
+
 /* SERVICES */
 
 .services {
